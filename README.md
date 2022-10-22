@@ -14,6 +14,7 @@ How to set mongodb:
 * Open mongodb and import that database, database in included with the project
 
 How to start application:
+* Install packages: `npm install`
 * Start client: `npm start`
 * Start server: `cd server` then `node server.js`
 
