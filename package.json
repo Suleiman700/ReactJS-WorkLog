@@ -1,0 +1,90 @@
+{
+  "name": "argon-dashboard-react",
+  "version": "1.2.2",
+  "description": "React version of Argon Dashboard by Creative Tim",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/argon-dashboard-react.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "argon",
+    "argon-react",
+    "dashboard",
+    "dashboard-react",
+    "argon-dashboard",
+    "argon-dashboard-react"
+  ],
+  "author": "Creative Tim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/argon-dashboard-react/issues"
+  },
+  "homepage": "https://demos.creative-tim.com/argon-dashboard-react/",
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile:scss": "sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css",
+    "minify:scss": "sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.min.css --style compressed",
+    "build:scss": "npm run compile:scss && npm run minify:scss && npm run map:scss"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.3",
+    "antd": "^4.23.5",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "bootstrap": "4.6.0",
+    "cdbreact": "^1.5.3",
+    "chart.js": "2.9.4",
+    "classnames": "2.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mdbreact": "^5.2.0",
+    "moment": "2.29.4",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20",
+    "nouislider": "15.2.0",
+    "react": "^18.1.0",
+    "react-chartjs-2": "2.11.1",
+    "react-copy-to-clipboard": "5.1.0",
+    "react-datetime": "3.1.1",
+    "react-dom": "^18.1.0",
+    "react-fullscreen-loading": "^0.0.4",
+    "react-numeric-input": "^2.2.3",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.4.0",
+    "react-time-picker": "^5.0.0",
+    "react-tooltip": "^4.2.21",
+    "reactstrap": "8.9.0",
+    "reactstrap-date-picker": "^1.0.2",
+    "sass": "1.54.5"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-flowtype": "8.0.3",
+    "jquery": "3.6.0",
+    "typescript": "4.8.2"
+  }
+}
